@@ -11,7 +11,7 @@ s.summary = "CBGamification  pod"
 s.requires_arc = true
 
 # 2
-s.version = "0.0.1"
+s.version = "0.0.2"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -36,7 +36,8 @@ s.dependency 'Loaf'
 s.dependency 'NVActivityIndicatorView'
 s.dependency 'CryptoSwift'
 s.dependency 'SDWebImage'
- 
+s.dependency 'SwiftEntryKit'
+
 # 8
 s.source_files = "CBGamification/**/*.{swift}"
 
